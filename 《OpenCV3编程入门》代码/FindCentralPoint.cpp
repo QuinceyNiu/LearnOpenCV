@@ -27,7 +27,7 @@ int main() {
 
 		Point2f P[4];
 		circle(img, Point(box[i].center.x, box[i].center.y), 5, Scalar(0, 255, 0), -1, 8);
-		printf("中心点坐标为(%d, %d)\n", box[i].center.x, box[i].center.y);
+		printf("The coordination of the central point is: (%d, %d)\n", box[i].center.x, box[i].center.y);
 
 		rect.points(P);
 		for (int j = 0; j <= 3; j++)
